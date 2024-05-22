@@ -1,0 +1,88 @@
+.products .products-title {
+  margin: 30px 0;
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.products .card {
+  margin-bottom: 20px;
+  border: none;
+}
+.products .card .img-body {
+  overflow: hidden;
+  position: relative;
+}
+
+.products .card .img-body img {
+  transform: scale(0.82);
+  transition: all 0.5s ease;
+}
+
+.products .card .img-body:hover img {
+  transform: scale(0.9);
+}
+
+.products .card .img-body .shop-btn {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  transform: translateY(50px);
+  transition: 0.25s all ease-in-out;
+  opacity: 0;
+  width: 100%;
+  padding: 8px 0;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #183786;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.products .card .img-body:hover .shop-btn {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.products .card .img-body .shop-btn:hover {
+  background-color: #222;
+}
+
+.products .card .img-body .state {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  z-index: 10;
+  color: #000;
+  font-weight: 800;
+  font-size: 13px;
+  text-shadow: 2px 2px #003cff71;
+}
+
+.products .card .card-body {
+  background-color: #ffffff;
+}
+
+.products .card .card-body .card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.products .card .card-body .card-price {
+  font-size: 14px;
+  color: #303030;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.products .card .card-body .in-stock {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #337239;
+}
